@@ -18,7 +18,7 @@ if __name__ == "__main__":
         max_resolution=1080
     )
 
-	  total_processing_time = 0.0
+    total_processing_time = 0.0
 
     for impath in impaths:
         if impath.endswith("out.jpg"): continue
