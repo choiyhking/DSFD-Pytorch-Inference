@@ -11,7 +11,7 @@ def draw_faces(im, bboxes):
 
 
 if __name__ == "__main__":
-    impaths = "/DSFD-Pytorch-Inference/images/fddb_images/2003/01/01/big"
+    impaths = "images"
     impaths = glob.glob(os.path.join(impaths, "*.jpg"))
     detector = face_detection.build_detector(
         "DSFDDetector",
